@@ -65,11 +65,11 @@ p {
 
 
 .cards {
-    margin-top: 50px;
+    margin-top: 60px;
     display:flex;
     flex-direction:column;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
    
     max-width: auto;
 
@@ -81,8 +81,10 @@ p {
     border: 2px solid var(--primary-color);
     border-radius: 12px;
     align-self: center;
-    height: 250px;
+    height: 370px;
+
     transition-duration: 0.05s;
+    
 }
 
 .item:hover {
