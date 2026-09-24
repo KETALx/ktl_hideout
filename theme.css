@@ -68,11 +68,15 @@ p {
     margin-top: 60px;
     display:flex;
     flex-direction:column;
-    justify-content: center;
     gap: 20px;
-   
     max-width: auto;
+}
 
+.gridcards {
+    display: grid;
+    grid-template-columns: repeat(5, 0fr);
+    gap:64px;
+    justify-content: center;
 }
 
 
@@ -81,9 +85,10 @@ p {
     border: 2px solid var(--primary-color);
     border-radius: 12px;
     align-self: center;
-    height: 370px;
+    height: 400px;
 
     transition-duration: 0.05s;
+    
     
 }
 
@@ -101,7 +106,7 @@ hr {
 .socials {
     margin: 20px;
     
-    justify-content: center;
+
     align-items: center;
     width: 250px;
     display: flex;
@@ -110,8 +115,6 @@ hr {
     font-size: 22px;
     color: rgb(141, 201, 216);
 }
-
-
 
 a:visited {
     text-decoration: inherit;
